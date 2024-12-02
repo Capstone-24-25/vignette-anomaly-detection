@@ -1,6 +1,6 @@
 # vignette-anomaly-detection
 
-Vignette on implementing anomaly detection using climate data to detect drastic changes, cloud computing data to detect abnormal attacks, and water quality data to detect contaminations; created as a class project for PSTAT197A in Fall 2024
+Vignette on implementing anomaly detection using climate data to detect drastic changes, cloud computing data to detect abnormal attacks, water quality data to detect contaminations, and image anomaly applications; created as a class project for PSTAT197A in Fall 2024
 
 ## Contributors
 
