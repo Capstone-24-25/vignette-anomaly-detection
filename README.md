@@ -12,4 +12,6 @@ Keon Dibley, Sanchit Mehtora, Ivan Li, Justin Lang
 
 ## Repository Contents
 
+Network_Time_Series_Draft.ipynb - An interactive Jupyter Notebook for Time Series Analysis on Network Traffic Data. Contributor: Ivan Li
+
 ## Reference List
