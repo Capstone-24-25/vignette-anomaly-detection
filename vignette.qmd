@@ -12,3 +12,15 @@ execute:
   echo: false
   cache: true
 ---
+
+## Abstract
+
+Content Placeholder
+
+## Cloud Computing and Network Traffic (Ivan Li)
+
+Content placeholder
+
+## Other Applications - Computer Vision, Image Anomaly Detection (Ivan Li)
+
+Content placeholder
