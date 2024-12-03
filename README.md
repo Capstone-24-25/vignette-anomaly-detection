@@ -10,8 +10,8 @@ Keon Dibley, Sanchit Mehtora, Ivan Li, Justin Lang
 
 This vignette utilizes a combination of machine learning techniques, including Isolation Forests and classical time series models to analyze and predict potential anomalies and trends in several datasets, showcasing their wide range of applications. By identifying irregularities in data, businesses and companies can identify problems, use model results to employ effective solutions, and prepare for future problems.
 
-## Usage
-
 ## Repository Contents
+
+
 
 ## Reference List
