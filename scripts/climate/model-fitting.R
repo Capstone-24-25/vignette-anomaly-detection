@@ -7,7 +7,9 @@ import matplotlib.pyplot as plt
 
 
 # Load the dataset
-df = pd.read_csv("../../data/DailyDelhiClimateTrain.csv")
+df = pd.read_csv("../../data/raw/DailyDelhiClimateTrain.csv")
+
+# Convert from datetime to floating point
 df["date"] = pd.to_datetime(df["date"])
 
 # Turn date into floating point
@@ -23,11 +25,10 @@ df["date"] = df["date"] * 1461 + 1
 for col in df.columns[1:]:
     X = df[["date", col]]
     y = df["meantemp"]
-    X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=42)
+    X_train, X_test, _, _ = train_test_split(X, y, random_state=42)
     model = IsolationForest(contamination=0.1, random_state=42)
     model.fit(X_train)
     anomalies = model.predict(X_test)
-
     # Sort the test results by date
     X_test_sorted = X_test.sort_values(by="date")
     anomalies_sorted = anomalies[np.argsort(X_test["date"])]
@@ -43,22 +44,3 @@ for col in df.columns[1:]:
     plt.title(col + " Over Time with Anomalies")
     plt.legend()
     plt.show()
-
-
-
-# from sklearn.svm import OneClassSVM
-
-# svm = OneClassSVM(nu=0.1, kernel="rbf", gamma=0.1)
-# svm.fit(df)
-# anomalies = svm.predict(df)
-# print(anomalies)
-# print(anomalies[anomalies == -1].shape)
-
-# plt.figure(figsize=(10, 6))
-# plt.plot(df["date"], df["meantemp"], label="Mean Temperature")
-# plt.scatter(df["date"][anomalies == -1], df["meantemp"][anomalies == -1], color='red', label="Anomalies")
-# plt.xlabel("Date")
-# plt.ylabel("Mean Temperature")
-# plt.title("Mean Temperature Over Time with Anomalies (SVM)")
-# plt.legend()
-# plt.show()
