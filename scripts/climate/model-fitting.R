@@ -23,21 +23,27 @@ df["date"] = df["date"] * 1461 + 1
 
 
 for col in df.columns[1:]:
-    X = df[["date", col]]
-    y = df["meantemp"]
-    X_train, X_test, _, _ = train_test_split(X, y, random_state=42)
-    model = IsolationForest(contamination=0.1, random_state=42)
-    model.fit(X_train)
-    anomalies = model.predict(X_test)
-    # Sort the test results by date
-    X_test_sorted = X_test.sort_values(by="date")
-    anomalies_sorted = anomalies[np.argsort(X_test["date"])]
+    X = df[["date", col]] # nolint
+    
+    # subset the data 
+    prop = 0.8 * len(X)
+    train = X[:int(prop)]
+    test = X[int(prop):]
+
+    # fit the model 
+    model = IsolationForest(n_estimators=100, max_samples= 200,
+                            contamination=0.005, max_features= 1,
+                            random_state=42)
+    model.fit(train)
+    
+    # predict the anomalies
+    anomalies = model.predict(test)
 
     # plot the results
     plt.figure(figsize=(10, 6))
-    plt.plot(X_test_sorted["date"], X_test_sorted[col], label="Mean " + col)
-    plt.scatter(X_test_sorted["date"][anomalies_sorted == -1], 
-                X_test_sorted[col][anomalies_sorted == -1], 
+    plt.plot(test["date"], test[col], label="Mean " + col)
+    plt.scatter(test["date"][anomalies == -1], 
+                test[col][anomalies == -1], 
                 color='red', label="Anomalies")
     plt.xlabel("Days since January 1, 2013")
     plt.ylabel(col)
