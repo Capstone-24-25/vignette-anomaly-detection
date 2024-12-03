@@ -18,4 +18,6 @@ scripts - a folder containing separate Jupyter notebooks and Python files used
 
 Vignette.ipynb - a combined Jupyter notebook containing all results and analyses
 
+Vignette_Presentation.pdf - a PowerPoint presentation for the Vignette ideas, analyses, results, and applications
+
 ## Reference List
