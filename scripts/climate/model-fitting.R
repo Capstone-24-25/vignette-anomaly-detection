@@ -1,4 +1,3 @@
-import kagglehub
 import pandas as pd
 import numpy as np
 from sklearn.ensemble import IsolationForest
@@ -6,11 +5,9 @@ from sklearn.model_selection import train_test_split
 
 import matplotlib.pyplot as plt
 
-# Download latest version
-path = kagglehub.dataset_download("sumanthvrao/daily-climate-time-series-data")
 
 # Load the dataset
-df = pd.read_csv(path + "/DailyDelhiClimateTrain.csv")
+df = pd.read_csv("../../data/DailyDelhiClimateTrain.csv")
 df["date"] = pd.to_datetime(df["date"])
 
 # Turn date into floating point
