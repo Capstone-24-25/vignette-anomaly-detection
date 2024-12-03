@@ -13,7 +13,9 @@ This vignette utilizes a combination of machine learning techniques, including I
 ## Repository Contents
 
 data - a folder containing the raw and preprocessed datasets used
+
 scripts - a folder containing separate Jupyter notebooks and Python files used
+
 Vignette.ipynb - a combined Jupyter notebook containing all results and analyses
 
 ## Reference List
