@@ -16,7 +16,7 @@ data - a folder containing the raw and preprocessed datasets used
 
 scripts - a folder containing separate Jupyter notebooks and Python files used
 
-Vignette.ipynb - a combined Jupyter notebook containing all results and analyses
+vignette-anomaly.ipynb - a combined Jupyter notebook containing all results and analyses
 
 Vignette_Presentation.pdf - a PowerPoint presentation of the Vignette ideas, analyses, results, and applications
 
