@@ -8,7 +8,7 @@ Justin Lang, Ivan Li, Sanchit Mehtora, Keon Dibley
 
 ## Vignette Abstract
 
-This vignette utilizes a combination of machine learning techniques, including Isolation Forests and classical time series models to analyze and predict potential anomalies and trends in several datasets, showcasing their wide range of applications. Specifically, we analyzed climate data to identify drastic environmental changes, cloud computing data to detect abnormal network attacks, credit card transaction data for fraud detection, and stock market data for irregular trading patterns. By identifying irregularities in data, businesses and companies can identify problems, use model results to employ effective solutions, and forecast trends to prepare for any issues.
+This vignette utilizes a combination of machine learning techniques, including Isolation Forests and classical time series models to analyze and predict potential anomalies and trends in several datasets, showcasing their wide range of applications. Specifically, we analyzed climate data to find drastic environmental changes, cloud computing data to detect abnormal network attacks, credit card transaction data for fraud detection, and stock market data for irregular trading patterns. By identifying irregularities in data, businesses and companies can identify problems, use model results to employ effective solutions, and forecast trends to prepare for any issues.
 
 ## Repository Contents
 
