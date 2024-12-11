@@ -24,4 +24,4 @@ Vignette_Presentation.pdf - a PowerPoint presentation of the Vignette ideas, ana
 
 1) T. L. Yasarathna and L. Munasinghe, "Anomaly detection in cloud network data," 2020 International Research Conference on Smart Computing and Systems Engineering (SCSE), Colombo, Sri Lanka, 2020, pp. 62-67, doi: 10.1109/SCSE49731.2020.9313014. keywords: {Cloud computing;Anomaly detection;Data models;Modeling;Security;Machine learning;Support vector machines;Anomaly Detection;Cloud Computing;Machine Learning;One-Class Classification},
 
-
+2) Tanja Hagemann and Katerina Katsarou. 2021. A Systematic Review on Anomaly Detection for Cloud Computing Environments. In Proceedings of the 2020 3rd Artificial Intelligence and Cloud Computing Conference (AICCC '20). Association for Computing Machinery, New York, NY, USA, 83–96. https://doi.org/10.1145/3442536.3442550
