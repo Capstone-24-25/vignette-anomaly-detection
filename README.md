@@ -4,7 +4,7 @@ Vignette on implementing anomaly detection using climate data to detect drastic 
 
 ## Contributors
 
-Ivan Li, Justin Lang, Sanchit Mehtora, Keon Dibley
+Justin Lang, Ivan Li, Sanchit Mehtora, Keon Dibley
 
 ## Vignette Abstract
 
