@@ -12,11 +12,11 @@ This vignette utilizes a combination of machine learning techniques, including I
 
 ## Repository Contents
 
-data - a folder containing the raw and preprocessed datasets used
+data - a folder containing the raw and preprocessed datasets used for our methods
 
 scripts - a folder containing separate Jupyter notebooks and Python files used
 
-vignette-anomaly.ipynb - a combined Jupyter notebook containing all results and analyses
+vignette-anomaly.ipynb - the primary vignette document, which is a combined Jupyter notebook containing all integrated code, results, and analyses
 
 Vignette_Presentation.pdf - a PowerPoint presentation of the Vignette ideas, analyses, results, and applications
 
