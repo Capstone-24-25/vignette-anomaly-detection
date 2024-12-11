@@ -16,7 +16,7 @@ data - a folder containing the raw and preprocessed datasets used for our method
 
 scripts - a folder containing separate Jupyter notebooks and Python files used
 
-vignette-anomaly.ipynb - the primary vignette document, which is a combined Jupyter notebook containing all integrated code, results, and analyses
+vignette-anomaly.ipynb - the primary vignette document, which is a combined Jupyter notebook containing all integrated code, results, and analyses. This document also functions as a script with line annotations that replicates all the results shown, assuming that the user's environment have the datasets loaded properly
 
 Vignette_Presentation.pdf - a PowerPoint presentation of the Vignette ideas, analyses, results, and applications
 
