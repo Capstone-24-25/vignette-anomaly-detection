@@ -21,3 +21,7 @@ vignette-anomaly.ipynb - a combined Jupyter notebook containing all results and 
 Vignette_Presentation.pdf - a PowerPoint presentation of the Vignette ideas, analyses, results, and applications
 
 ## Reference List
+
+1) T. L. Yasarathna and L. Munasinghe, "Anomaly detection in cloud network data," 2020 International Research Conference on Smart Computing and Systems Engineering (SCSE), Colombo, Sri Lanka, 2020, pp. 62-67, doi: 10.1109/SCSE49731.2020.9313014. keywords: {Cloud computing;Anomaly detection;Data models;Modeling;Security;Machine learning;Support vector machines;Anomaly Detection;Cloud Computing;Machine Learning;One-Class Classification},
+
+
