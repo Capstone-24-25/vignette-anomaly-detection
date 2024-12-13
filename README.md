@@ -22,9 +22,12 @@ Vignette_Presentation.pdf - a PowerPoint presentation of the Vignette ideas, ana
 
 ## Reference List
 
-1) T. L. Yasarathna and L. Munasinghe, "Anomaly detection in cloud network data," 2020 International Research Conference on Smart Computing and Systems Engineering (SCSE), Colombo, Sri Lanka, 2020, pp. 62-67, doi: 10.1109/SCSE49731.2020.9313014. keywords: {Cloud computing;Anomaly detection;Data models;Modeling;Security;Machine learning;Support vector machines;Anomaly Detection;Cloud Computing;Machine Learning;One-Class Classification},
+1) T. L. Yasarathna and L. Munasinghe, "Anomaly detection in cloud network data," 2020 International Research Conference on Smart Computing and Systems Engineering (SCSE), Colombo, Sri Lanka, 2020, pp. 62-67, doi: 10.1109/SCSE49731.2020.9313014. keywords: {Cloud computing;Anomaly detection;Data models;Modeling;Security;Machine learning;Support vector machines;Anomaly Detection;Cloud Computing;Machine Learning;One-Class Classification}
 
 2) Tanja Hagemann and Katerina Katsarou. 2021. A Systematic Review on Anomaly Detection for Cloud Computing Environments. In Proceedings of the 2020 3rd Artificial Intelligence and Cloud Computing Conference (AICCC '20). Association for Computing Machinery, New York, NY, USA, 83–96. https://doi.org/10.1145/3442536.3442550
 
 3) Lorenzo Menculini, Andrea Marini, Proietti and Marcello Marconi, 2021. Comparing Prophet and Deep Learning to ARIMA in Forecasting Wholesale Food Prices. https://www.researchgate.net/publication/354631436_Comparing_Prophet_and_Deep_Learning_to_ARIMA_in_Forecasting_Wholesale_Food_Prices.
-   Working data - https://www.kaggle.com/code/gvyshnya/gold-future-prices-ts-comprehesive-eda?select=future-gc00-daily-prices.csv
+
+4) Gold Prices: Working data - https://www.kaggle.com/code/gvyshnya/gold-future-prices-ts-comprehesive-eda?select=future-gc00-daily-prices.csv
+
+5) Cloud Network: Working data - https://www.kaggle.com/datasets/garystafford/ping-data
