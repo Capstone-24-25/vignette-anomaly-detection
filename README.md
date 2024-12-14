@@ -1,6 +1,6 @@
 # vignette-anomaly-detection
 
-Vignette on implementing anomaly detection using climate data to detect drastic changes, cloud computing data to detect malicious attacks, and gold price analysis; created as a class project for PSTAT197A in Fall 2024
+Vignette on implementing anomaly detection using climate data to detect drastic changes, cloud computing data to detect malicious attacks, and gold price data to detect price spikes; created as a class project for PSTAT197A in Fall 2024
 
 ## Contributors
 
