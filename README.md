@@ -1,6 +1,6 @@
 # vignette-anomaly-detection
 
-Vignette on implementing anomaly detection using climate data to detect drastic changes, cloud computing data to detect abnormal attacks, credit card data for fraud detection, stock market analysis, and several other applications; created as a class project for PSTAT197A in Fall 2024
+Vignette on implementing anomaly detection using climate data to detect drastic changes, cloud computing data to detect abnormal attacks, gold price analysis, and several other applications; created as a class project for PSTAT197A in Fall 2024
 
 ## Contributors
 
