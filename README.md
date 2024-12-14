@@ -18,8 +18,6 @@ scripts - a folder containing separate Jupyter notebooks and Python files used f
 
 vignette_anomaly.ipynb - the primary vignette document, which is a combined Jupyter notebook containing all integrated code, results, and analyses. This document also functions as a script with line annotations that replicates all the results shown, assuming that the user's environment have the datasets loaded properly
 
-Vignette_Presentation.pdf - a PowerPoint presentation of the Vignette ideas, analyses, results, and applications
-
 ## Reference List
 
 1) T. L. Yasarathna and L. Munasinghe, "Anomaly detection in cloud network data," 2020 International Research Conference on Smart Computing and Systems Engineering (SCSE), Colombo, Sri Lanka, 2020, pp. 62-67, doi: 10.1109/SCSE49731.2020.9313014. keywords: {Cloud computing;Anomaly detection;Data models;Modeling;Security;Machine learning;Support vector machines;Anomaly Detection;Cloud Computing;Machine Learning;One-Class Classification}
