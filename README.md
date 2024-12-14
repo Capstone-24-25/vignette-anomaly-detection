@@ -29,3 +29,5 @@ vignette_anomaly.ipynb - the primary vignette document, which is a combined Jupy
 4) Gold Prices: Working data - https://www.kaggle.com/code/gvyshnya/gold-future-prices-ts-comprehesive-eda?select=future-gc00-daily-prices.csv
 
 5) Cloud Network: Working data - https://www.kaggle.com/datasets/garystafford/ping-data
+
+6) Climate Analysis: Working data - https://www.kaggle.com/datasets/sumanthvrao/daily-climate-time-series-data?resource=download%7D
